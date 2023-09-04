@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Blog</title>
+  </head>
+  <body>
+    <nav
+      class="flex text-lg items-center text-white color-red bg-[#512B81] h-[80px]"
+    >
+      <img
+        class="kanye w-[48px] h-[48px] ml-6 rounded-[50px]"
+        src="images/Kanye_West_at_the_2009_Tribeca_Film_Festival-2_(cropped).jpg"
+        alt=""
+      />
+      <h6 class="text-[#8CABFF] m-4 text-4xl font-bold">Kanye West</h6>
+
+      <div class="flex absolute items-center right-0 gap-3 mx-8 font-bold">
+        <a href="historia.html"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-9 h-9 flex sm:hidden cursor-pointer"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </a>
+
+        <span
+          class="span-nav hover:bg-[#35155D] px-3 py-2 rounded-xl hidden sm:flex"
+          ><a href="index.html">Inicio</a></span
+        >
+        <span
+          class="span-nav hover:bg-[#35155D] px-3 py-2 rounded-xl hidden sm:flex"
+          ><a href="historia.html">Historia</a></span
+        >
+        <span
+          class="span-nav hover:bg-[#35155D] px-3 py-2 rounded-xl hidden sm:flex"
+        >
+          <a href="albumes.html">Álbumes</a>
+        </span>
+      </div>
+    </nav>
+
+    <main class="h-screen bg-[url(images/536324.jpg)] bg-cover bg-repeat flex justify-center">
+      <div
+        data-aos="zoom-in"
+        data-aos-duration="2000"
+        class="h-[550px] w-[600px] mx-7 mt-[50px] bg-[#35155D] z-100 rounded-xl sm:h-[300px] sm:mt-[200px] " 
+      >
+        <p
+          data-aos="flip-up"
+          data-aos-duration="3000"
+          class="text-[#4477CE] m-5 text-base text-justify font-bold"
+        >
+          Kanye West es un rapero, productor y diseñador de moda estadounidense
+          que se ha convertido en una de las figuras más influyentes de la
+          música contemporánea. Comenzó su carrera como productor, trabajando
+          con artistas como Jay-Z y Alicia Keys, antes de lanzar su álbum debut,
+          The College Dropout, en 2004. Desde entonces, ha lanzado varios
+          álbumes aclamados por la crítica, incluidos Late Registration,
+          Graduation, y My Beautiful Dark Twisted Fantasy. A pesar de su éxito,
+          West ha sido conocido por sus controvertidas declaraciones públicas y
+          su comportamiento. En este blog, exploraremos la historia de Kanye
+          West y sus álbumes, analizando su impacto en la música y la cultura.
+        </p>
+      </div>
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

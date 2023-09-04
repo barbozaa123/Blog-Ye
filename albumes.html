@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Álbumes</title>
+  </head>
+  <body>
+    <nav
+      class="flex text-lg items-center text-white color-red bg-[#7A8CA4] h-[80px]"
+    >
+      <img
+        class="kanye w-[48px] h-[48px] ml-6 rounded-[50px]"
+        src="images/Kanye_West_at_the_2009_Tribeca_Film_Festival-2_(cropped).jpg"
+        alt=""
+      />
+      <h6 class="text-[#F2EEE5] m-4 text-4xl font-bold">Kanye West</h6>
+      <div class="flex absolute right-0 gap-3 mx-8 font-bold">
+        <a href="index.html"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-9 h-9 flex sm:hidden cursor-pointer"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </a>
+        <span
+          class="span-nav hover:bg-[#11DA2D] px-3 py-2 rounded-xl hidden sm:flex"
+          ><a href="index.html">Inicio</a></span
+        >
+        <span
+          class="span-nav hover:bg-[#11DA2D] px-3 py-2 rounded-xl hidden sm:flex"
+          ><a href="historia.html">Historia</a></span
+        >
+        <span
+          class="span-nav hover:bg-[#11DA2D] px-3 py-2 rounded-xl hidden sm:flex"
+        >
+          <a href="albumes.html">Álbumes</a>
+        </span>
+      </div>
+    </nav>
+
+    <main
+      class="albumes bg-[url(images/4198173.webp)] bg-cover bg-repeat bg-center h-full flex justify-center"
+    >
+      <div class="grid grid-cols-2 sm:grid-cols-3 m-9 gap-6">
+        <div data-aos="fade-down-right" data-aos-duration="1000">
+          <a
+            href="https://open.spotify.com/intl-es/album/20r762YmB5HeofjMCiPMLv"
+            target="_blank"
+            ><img class="w-[300px] h-[500px]" src="images/mbdtf.jpg" alt=""
+          /></a>
+        </div>
+        <div data-aos="fade-down" data-aos-duration="1000">
+          <a
+            href="https://open.spotify.com/intl-es/album/3WFTGIO6E3Xh4paEOBY9OU"
+            target="_blank"
+            ><img class="w-[300px] h-[500px]" src="images/808.jpg" alt=""
+          /></a>
+        </div>
+        <div data-aos="fade-down-left" data-aos-duration="1000">
+          <a
+            href="https://open.spotify.com/intl-es/album/5CnpZV3q5BcESefcB3WJmz"
+            target="_blank"
+            ><img class="w-[300px] h-[500px]" src="images/donda.jpg" alt=""
+          /></a>
+        </div>
+        <div data-aos="fade-right" data-aos-duration="1000">
+          <a
+            href="https://open.spotify.com/intl-es/album/4Uv86qWpGTxf7fU7lG5X6F"
+            target="_blank"
+            ><img class="w-[300px] h-[500px]" src="images/dropout.jpg" alt=""
+          /></a>
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="1000">
+          <a
+            href="https://open.spotify.com/intl-es/album/2Ek1q2haOnxVqhvVKqMvJe"
+            target="_blank"
+            ><img class="w-[300px] h-[500px]" src="images/ye.jpg" alt=""
+          /></a>
+        </div>
+        <div data-aos="fade-left" data-aos-duration="1000">
+          <a
+            href="https://open.spotify.com/intl-es/album/7gsWAHLeT0w7es6FofOXk1"
+            target="_blank"
+            ><img class="w-[300px] h-[500px]" src="images/pablo.jpg" alt=""
+          /></a>
+        </div>
+        <div data-aos="fade-up-right" data-aos-duration="1000">
+          <a
+            href="https://open.spotify.com/intl-es/album/5ll74bqtkcXlKE7wwkMq4g"
+            target="_blank"
+            ><img
+              class="w-[300px] h-[500px]"
+              src="images/registration.jpg"
+              alt=""
+          /></a>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000">
+          <a
+            href="https://open.spotify.com/intl-es/album/4SZko61aMnmgvNhfhgTuD3"
+            target="_blank"
+            ><img
+              class="w-[300px] h-[500px]"
+              src="images/graduation.jpg"
+              alt=""
+          /></a>
+        </div>
+        <div data-aos="fade-up-left" data-aos-duration="1000">
+          <a
+            href="https://open.spotify.com/intl-es/album/7D2NdGvBHIavgLhmcwhluK"
+            target="_blank"
+            ><img class="w-[300px] h-[500px]" src="images/yeezus.jpg" alt=""
+          /></a>
+        </div>
+      </div>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
